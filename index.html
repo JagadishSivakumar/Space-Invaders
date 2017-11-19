@@ -8,6 +8,7 @@
 
 	<style>
 	canvas {
+		/*background-image: url(pEI6Uz.jpg);*/
 		background-color: #000;
 		display: block;
 		position: absolute;
@@ -16,15 +17,31 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
+		background-color: black;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 24s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 24s;
 	}
+	@-webkit-keyframes example {
+    from {background-color: black;}
+    to {background-color: dodgerblue;}
+}
+/* Standard syntax */
+@keyframes example {
+    from {background-color: black;}
+    to {background-color: dodgerblue;}
+}
 	h3{
 		color: cornflowerblue;
 		font-size: 35px;
 	}
+	/*
 	body{
 		background-image: url(bgimage.jpg);
 		background-color: #cccccc;
 	}
+	*/
 	</style>
 </head>
 <body bgcolor="black">
