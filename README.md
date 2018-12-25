@@ -1,2 +1,4 @@
 # Space-Invaders
-2D Space Invaders Game in Javascript &amp; HTML5
+Space Invaders was a very popular 2D game once.
+
+This is a simple code in Javascript of Space Invaders.
